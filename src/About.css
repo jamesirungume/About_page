@@ -1,0 +1,189 @@
+
+.container {
+    position: relative;
+}
+
+#front_image {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 58vh;
+    z-index: 1;
+    object-fit: cover;
+}
+
+
+.card {
+    position: absolute;
+    background-color: gray;
+    max-width: 600px;
+    min-height: 300px;
+    border-end-end-radius: 70px;
+    border-top-left-radius: 60px;
+    z-index: 2;
+    right: -600px; /* Position the card off-screen to the right */
+    top: 70px;
+    padding: 48px;
+    transition: right 1s; /* Add a transition for smoother movement */
+}
+
+.card.show {
+    right: 50px; /* Move the card to the desired position */
+}
+
+.card h1 {
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px solid black; /* Add a border under the h1 */
+    padding-bottom: 10px; /* Adjust padding as needed */
+    width: 50%; /* Limit the width of the line */
+    margin: auto; /* Center the line */
+    font-size: xx-large;
+}
+
+.card p {
+    font-size: x-large;
+    font-style: poppins;
+    text-align: center;
+}
+
+.location {
+    background-image: url('https://static.wixstatic.com/media/bc439c_b04ce28934904510a64e9a2f5548c4ba~mv2.jpg/v1/fill/w_576,h_417,al_c,q_80,enc_auto/bc439c_b04ce28934904510a64e9a2f5548c4ba~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+}
+
+.locationContent{
+    display: flex;
+    flex-direction: row; /* Display items in a row */
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+    
+}
+
+.location h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black; /* Add a border under the h1 */
+   
+    width: 50%; /* Limit the width of the line */
+}
+
+.locationContent p {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+.locationContent img {
+    max-width: 50%;
+    height: auto; /* Maintain aspect ratio */
+}
+.Land h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black; /* Add a border under the h1 */
+   
+    width: 50%; /* Limit the width of the line */
+}
+
+.testimonial {
+    background-image: url('https://static.wixstatic.com/media/11062b_54ef6fb8ec744a24a353d6758db5286d~mv2.jpg/v1/fill/w_1280,h_694,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_54ef6fb8ec744a24a353d6758db5286d~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 40px auto; /* Adjust margin as needed */
+    padding: 30px;
+   
+}
+
+
+.testimonial p {
+    position: relative;
+    font-size: x-large;
+    line-height: 1.6; /* Adjust line height as needed */
+    display: inline-block; /* Ensure the paragraph wraps around the quotation marks */
+    max-width: 800px; /* Adjust max-width as needed */
+    color: #FFCC00;
+    
+}
+
+.testimonial p:before {
+    content: '\201C'; /* Unicode for left double quotation mark */
+    font-size: 90px; /* Adjust font size of quote marks */
+    color: #FFCC00; /* Color of the quote marks */
+    position: absolute;
+    top: -60px; /* Adjust vertical position */
+    left: -40px; /* Move the quotation mark slightly in front */
+}
+
+
+.testimonial p:after {
+    content: '\201D'; /* Unicode for right double quotation mark */
+    font-size: 80px; /* Adjust font size of quote marks */
+    color: #FFCC00; /* Color of the quote marks */
+    position: absolute;
+    bottom: -50px; /* Adjust vertical position */
+    right: -30px; /* Position at the end of the paragraph */
+}
+#Population h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid black; /* Add a border under the h1 */
+   
+    width: 50%; /* Limit the width of the line */
+}
+#Population {
+    background-color: gray;
+    padding: 40px;
+
+}
+.Sight {
+    background-image: url('https://static.wixstatic.com/media/bc439c_c491dad46172441a951899a643879f5f~mv2.jpg/v1/fill/w_967,h_900,al_c,q_85,enc_auto/bc439c_c491dad46172441a951899a643879f5f~mv2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+}
+.Sight h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #333; /* Change the color to suit your design */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.sightImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Sight h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #333; /* Change the color to suit your design */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.sightImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sightImages img {
+    max-width: 20%; /* Adjust image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add margin between images */
+}
+
