@@ -48,9 +48,7 @@
 }
 
 .location {
-    background-image: url('https://static.wixstatic.com/media/bc439c_b04ce28934904510a64e9a2f5548c4ba~mv2.jpg/v1/fill/w_576,h_417,al_c,q_80,enc_auto/bc439c_b04ce28934904510a64e9a2f5548c4ba~mv2.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: gray;
     padding: 20px;
     
 }
